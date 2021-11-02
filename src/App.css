@@ -6,10 +6,12 @@ header {
 }
 
 header img {
-  width: 50px;
+  /* width: 50px */
   border: solid;
 }
 
-nav img {
-  border: solid;
+.carroussel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
 }

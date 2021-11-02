@@ -6,14 +6,17 @@ function App() {
   return (
     <>
       <header>
-        <img src="src/img/logo.696c2101.png" alt="" />
+        <img
+          src="https://lereacteur-react-netflix.netlify.app/static/media/logo.696c2101.png"
+          alt=""
+        />
       </header>
 
       {data.map((movies) => {
         return (
           <>
-            <h1>{movies.category}</h1>
-            <div>
+            <h2>{movies.category}</h2>
+            <div className="carroussel">
               {movies.images.map((pictures) => {
                 return <img src={pictures} alt="" />;
               })}
