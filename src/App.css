@@ -1,0 +1,15 @@
+/* Other rules */
+header {
+  border: solid;
+  height: 100px;
+  display: flex;
+}
+
+header img {
+  width: 50px;
+}
+
+menu div {
+  height: 192px;
+  border: solid;
+}
