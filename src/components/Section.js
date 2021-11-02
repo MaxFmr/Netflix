@@ -1,4 +1,4 @@
-import data from "/Users/maximekerlidou/Desktop/netflix/src/data.json";
+import data from "../data.json";
 
 const Section = () => {
   return (
