@@ -7,9 +7,9 @@ header {
 
 header img {
   width: 50px;
+  border: solid;
 }
 
-menu div {
-  height: 192px;
+nav img {
   border: solid;
 }
