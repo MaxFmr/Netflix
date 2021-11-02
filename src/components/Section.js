@@ -1,12 +1,24 @@
-const Section = (props) => {
-  return (
-    <menu>
-      <h1>{props.title}</h1>
+import data from "/Users/maximekerlidou/Desktop/netflix/src/data.json";
 
-      <div>
-        <img src={props.movies} alt="" />
-      </div>
-    </menu>
+const Section = () => {
+  return (
+    <>
+      {data.map((movies) => {
+        return (
+          <>
+            <div>
+              <h2>{movies.category}</h2>
+            </div>
+
+            <div className="carroussel">
+              {movies.images.map((pictures) => {
+                return <img src={pictures} alt="" />;
+              })}
+            </div>
+          </>
+        );
+      })}
+    </>
   );
 };
 
